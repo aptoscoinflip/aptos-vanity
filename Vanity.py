@@ -12,7 +12,7 @@ class Account:
         self.signing_key = SigningKey.generate()
 
     def address(self) -> str:
-        return self.auth_key()[-1:]
+        return self.auth_key()[-64:]
 
     def auth_key(self) -> str:
         hasher = hashlib.sha3_256()
