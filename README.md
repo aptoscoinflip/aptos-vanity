@@ -1,4 +1,4 @@
-Install the required dependencies including nacl, hashlib, and termcolor.
+Install the required dependencies including pynacl, hashlib, and termcolor.
 
 Save the code in a file named vanity.py.
 
